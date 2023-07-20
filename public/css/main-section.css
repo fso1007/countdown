@@ -46,6 +46,7 @@ article {
   max-width: 300px; }
   .date__input-title {
     font-size: 1.2rem;
+    align-self: center;
     color: #Fff; }
   .date__input-field {
     width: 150px; }
