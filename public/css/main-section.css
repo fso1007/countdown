@@ -55,4 +55,5 @@ article {
     justify-self: end;
     margin-top: 14px;
     background-color: #000;
-    color: #Fff; }
+    color: #Fff;
+    cursor: pointer; }
