@@ -1,0 +1,58 @@
+body {
+  background-color: #000; }
+
+article {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid white; }
+
+.timer {
+  display: flex;
+  flex-direction: column; }
+  .timer__count {
+    font-size: 2.1rem;
+    font-weight: 700;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #fff;
+    color: #Fff; }
+    .timer__count > p {
+      font-size: 1.2rem;
+      color: #Fff; }
+  .timer__target {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #fff;
+    color: #Fff; }
+    .timer__target > p {
+      font-size: 1.2rem;
+      color: #Fff; }
+
+.date__input {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 18px auto;
+  max-width: 300px; }
+  .date__input-title {
+    font-size: 1.2rem;
+    color: #Fff; }
+  .date__input-field {
+    width: 150px; }
+  .date__input-button {
+    grid-column: 2 / 3;
+    width: 50%;
+    justify-self: end;
+    margin-top: 14px;
+    background-color: #000;
+    color: #Fff; }

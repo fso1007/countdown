@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <html lang="eng">
+    <head>
+      <!--Metadata-->
+      <meta charset="UTF-8">
+      <meta name="description" content="countdown timer with pure javascript">
+      <meta name="keywords" content="countdown, timer, pure, javascript">
+      <meta name="author" content="Fabio Oliveira">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Countdown</title>
+      <!--External Links-->
+      <link rel="stylesheet" href="public/css/main.css">
+    </head>
+    <body>
+      <main>
+        <article>
+          <div class="timer">
+            <div class="timer__count"></div>
+            <div class="timer__count"></div>
+            <div class="timer__count"></div>
+            <div class="timer__count"></div>
+            <div class="timer__target"></div>
+          </div>
+          <div class="date__input">
+            <label class="date__input-title" for="date">Choose the date:</label>
+            <input class="date__input-field" type="text" placeholder="01-01-2050" required>
+            <button class="date__input-button">Start</button>
+          </div>
+        </article>
+      </main>
+      <!--Scripts-->
+      <script type="module" src="./public/assets/scripts/countdown.js"></script>
+      <script type="module" src="./public/assets/scripts/input-mask.js"></script>
+    </body>
+  </html>
